@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Student</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="add_student.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Add Student</h2>
+      <form id="addStudentForm">
+        First Name: <input type="text" id="firstName" /><br />
+        Last Name: <input type="text" id="lastName" /><br />
+        Date of Birth: <input type="date" id="dob" /><br />
+        Stream ID:
+        <select id="streamId">
+          <option value="">Select Stream</option>
+          <!-- Options for streamId -->
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option></select
+        ><br />
+        <input type="button" value="Add Student" onclick="addStudent()" />
+      </form>
+    </div>
+  </body>
+</html>

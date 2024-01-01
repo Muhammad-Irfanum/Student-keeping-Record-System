@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Update Student</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="update_student.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Update Student</h2>
+      <form id="updateStudentForm">
+        ID: <input type="text" id="studentId" readonly /><br />
+        First Name: <input type="text" id="firstName" /><br />
+        Last Name: <input type="text" id="lastName" /><br />
+        Date of Birth: <input type="date" id="dob" /><br />
+        Stream ID: <input type="number" id="streamId" /><br />
+        <input
+          type="button"
+          value="Update Student"
+          onclick="updateStudentData()"
+        />
+      </form>
+    </div>
+  </body>
+</html>
